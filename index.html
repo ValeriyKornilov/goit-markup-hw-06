@@ -511,6 +511,69 @@
             />
           </svg>
         </button>
+        <form class="form-backdrop" name="form" autocomplete="on">
+          <strong class="form-title"
+            >Оставьте свои данные, мы вам перезвоним</strong
+          >
+          <div role="group" class="form-group-fild">
+            <label class="form-label" for="user-name">Имя</label>
+            <div class="form-field">
+              <svg class="input-icon">
+                <use
+                  href="./images/symbol-defs6hw.svg#icon-person-black-18dp-1"
+                ></use>
+              </svg>
+              <input
+                type="text"
+                class="form-input"
+                name="user-name"
+                id="user-name"
+                placeholder=" "
+                required
+                autofocus
+              />
+            </div>
+            <label class="form-label" for="user-phone">Телефон</label>
+            <div class="form-field">
+              <svg class="input-icon">
+                <use
+                  href="./images/symbol-defs6hw.svg#icon-phone-black-18dp-1"
+                ></use>
+              </svg>
+              <input
+                type="tel"
+                class="form-input"
+                name="user-phone"
+                id="user-phone"
+                placeholder=" "
+                required
+              />
+            </div>
+            <label class="form-label" for="user-email">Почта</label>
+            <div class="form-field">
+              <svg class="input-icon">
+                <use
+                  href="./images/symbol-defs6hw.svg#icon-email-black-18dp-1"
+                ></use>
+              </svg>
+              <input
+                type="email"
+                class="form-input"
+                name="user-email"
+                id="user-email"
+                placeholder=" "
+                required
+              />
+            </div>
+            <label class="form-label" for="user-notes">Комментарии</label>
+            <textarea
+              class="textarea-form"
+              name="user-notes"
+              id="user-notes"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
