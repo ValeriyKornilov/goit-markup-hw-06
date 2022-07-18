@@ -693,9 +693,14 @@ footer .logo {
   position: absolute;
   right: 8px;
   top: 8px;
+  cursor: pointer;
 }
 
 .modal-cross:hover {
+  fill: #188ce8;
+}
+
+.modal-cross:focus {
   fill: #188ce8;
 }
 
@@ -763,6 +768,10 @@ footer .logo {
 .form-field:focus-within > .input-icon {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.subscribe-input:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .form-input {
